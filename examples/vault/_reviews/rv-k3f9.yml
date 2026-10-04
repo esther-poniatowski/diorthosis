@@ -1,0 +1,26 @@
+# Review record of the example vault: one item targeting a word of a note and a field of a YAML record.
+id: rv-k3f9
+kind: term
+severity: major
+state: answered
+targets:
+  - file: notes/saturation.md
+    selectors:
+      - type: TextQuoteSelector
+        exact: weak
+        prefix: 'The response saturates when the coupling is '
+        suffix: '. Beyond the critical value, the response grows'
+      - type: TextPositionSelector
+        start: 102
+        end: 106
+  - file: glossary.yml
+    selectors:
+      - type: FieldPathSelector
+        path: terms.weak-coupling.gloss
+thread:
+  - author: esther-poniatowski
+    timestamp: 2026-10-02T10:14:00+02:00
+    body: 'State the condition on the coupling, such as $\lVert W \rVert_2 < 1$, and align the gloss of the term.'
+  - author: claude-opus-5-5
+    timestamp: 2026-10-03T09:02:00+02:00
+    body: 'Proposed condition: $\lVert W \rVert_2 < 1$. The note and the gloss remain to be edited once the condition is accepted.'

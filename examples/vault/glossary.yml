@@ -1,0 +1,5 @@
+# glossary of the example vault
+terms:
+  weak-coupling:
+    label: weak coupling
+    gloss: a coupling below the critical value
