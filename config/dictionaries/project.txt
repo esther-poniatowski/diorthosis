@@ -1,0 +1,6 @@
+# Project-specific names and concepts
+# Add terms that are unique to the diorthosis project
+diorthosis
+Diorthosis
+Sidemark
+MRSF

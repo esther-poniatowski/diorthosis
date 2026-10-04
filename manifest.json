@@ -1,0 +1,10 @@
+{
+  "id": "diorthosis",
+  "name": "Diorthosis",
+  "version": "0.0.0",
+  "minAppVersion": "1.6.6",
+  "description": "Reviews notes and YAML records through threaded review items, stored apart from the reviewed files and anchored by selectors.",
+  "author": "Esther Poniatowski",
+  "authorUrl": "https://github.com/esther-poniatowski",
+  "isDesktopOnly": false
+}
