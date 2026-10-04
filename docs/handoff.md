@@ -16,7 +16,7 @@ The handoff carries the state of diorthosis from one agent session to the next. 
 
 ## Task state
 
-The project holds its documentation, its toolchain configuration, an empty source tree in four layers, and an example vault. No dependency is installed, no check has run, and no file is committed. The repository exists locally only, with no remote. The first commit of this scaffold awaits the approval of the user.
+The project holds its documentation, its toolchain configuration, an empty source tree in four layers, and an example vault. No dependency is installed, and no check has run. The scaffold is committed on the branch `main`, and published at `https://github.com/esther-poniatowski/diorthosis`.
 
 The next milestone is *Toolchain and spikes*. A session starting that milestone must first read five sources, in this order:
 
